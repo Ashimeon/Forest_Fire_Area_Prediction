@@ -1,6 +1,6 @@
 # Forest_Fire_Area_Prediction
 The goal of this challenging regression challenge is to forecast the burnt area of forest fires in Portugal's northeast region using meteorological and other data.
-## (See details at: http://www.dsi.uminho.pt/~pcortez/forestfires)
+### (See details at: http://www.dsi.uminho.pt/~pcortez/forestfires)
 
 For more information, read [Cortez and Morais, 2007].
    1. X - x-axis spatial coordinate within the Montesinho park map: 1 to 9
@@ -20,5 +20,8 @@ For more information, read [Cortez and Morais, 2007].
     sense to model with the logarithm transform).
 
 # Supervised Learning
-- Objective: To predict burned area through different parameters
-- Error measurement: Using Root Mean Squared Error Calculation
+- Objective: To predict burned area through different parameters using various regression models with their hyper-tuned parameters.
+- Error measurement: Using Root Mean Squared Error Calculation, Mean absolute error and R2 score.
+
+# Conclusion
+Random Forest Regressor was found to be the best model as it had minimum Rmse score of 1.418.
